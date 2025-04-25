@@ -52,6 +52,14 @@ This project was developed as part of a Computer Vision course to study the impl
 
 This application was built using Java with Swing for the graphical user interface. The implementation focuses on understanding the algorithms rather than optimizing for performance.
 
+## Demonstration
+
+A video demonstration of the working application and various image processing filters can be found here:
+
+[![Watch the Video](https://img.youtube.com/vi/video-id/0.jpg)](https://youtu.be/video-id)
+
+This video shows the application in action, including examples of several implemented algorithms applied to sample images.
+
 ## Running the Project
 
 The project can be run directly using Java, bypassing Maven complications. Here's how to run it:
