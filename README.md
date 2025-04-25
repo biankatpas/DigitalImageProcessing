@@ -54,12 +54,18 @@ This application was built using Java with Swing for the graphical user interfac
 
 ## Running the Project
 
-The project uses Maven for dependency management, as indicated by the presence of a pom.xml file. To run the project:
+The project can be run directly using Java, bypassing Maven complications. Here's how to run it:
 
 1. Ensure you have Java Development Kit (JDK) installed
-2. Extract the libraries from the bibliotecas.rar file if needed
-3. Open the project in an IDE that supports Maven (like IntelliJ IDEA or Eclipse)
-4. Build the project using Maven
-5. Run the main application class
-
-Note: This project was originally developed for educational purposes to understand the principles of digital image processing algorithms.
+2. Clone or download the repository
+3. Extract the `bibliotecas.rar` file to a folder named `lib` in the project root directory
+4. Compile the project from the command line:
+   ```
+   javac -d target/classes -cp "lib/*" $(find src -name "*.java")
+   ```
+5. Run the application:
+   ```
+   java -cp "target/classes:lib/*" br.univali.pdi.MainJFrame
+   ```
+   
+Note: This project was originally developed in September 2018 for educational purposes to understand the principles of digital image processing algorithms. While the core image processing algorithms remain fully functional when processing images from files, some system-dependent features like webcam capture may require additional configuration on modern systems.
