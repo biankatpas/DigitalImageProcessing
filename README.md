@@ -56,7 +56,7 @@ This application was built using Java with Swing for the graphical user interfac
 
 A video demonstration of the working application and various image processing filters can be found here:
 
-[![Watch the Video](https://img.youtube.com/vi/video-id/0.jpg)](https://youtu.be/video-id)
+[![Watch the Video](https://img.youtube.com/vi/zMQiKLOEr3o/0.jpg)](https://youtu.be/zMQiKLOEr3o)
 
 This video shows the application in action, including examples of several implemented algorithms applied to sample images.
 
